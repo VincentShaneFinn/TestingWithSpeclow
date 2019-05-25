@@ -6,4 +6,4 @@ dotnet: 2.2
 script:
     - dotnet restore
     - dotnet build
-    - dotnet test TestingWithSpecflow/TestingWithSpecflow.csproj --filter TestCategory!=OPTIONAL-TEST
+    - dotnet test TestingWithSpecflow/TestingWithSpecflow.csproj
